@@ -1,0 +1,87 @@
+#navbar{
+    background-color :var(--secondary-color);
+    color: var(--navbar-color);
+}
+#navbar a {
+    color: var(--navbar-color);
+}
+.navbar-toggler-icon{
+    border-color: white;
+}
+#navbar {
+    min-height: 70px;
+}
+.row{
+    margin:0 0;
+    padding:0;
+    color:var(--navbar-color);
+}
+.row>div{
+    margin:0 0;
+    padding:0;
+}
+
+#search {
+    margin-top:8%;
+    color: var(--navbar-color);
+}
+#search input[type="text"]{
+    width:60%;
+    margin-right:0;
+    padding-right: 0;
+    height:40px;
+    border: 1px solid var(--navbar-color);
+}
+
+#search input[type="submit"]{
+    width:20%;
+    background-color: var(--navbar-color);
+    border:none;
+    padding:2%;
+    color:var(--font-color);
+}
+
+#search>div{
+    margin-bottom:7%;
+}
+#name{
+    color:var(--navbar-color);
+    font-family: cursive;
+    font-size: 20px;
+}
+#locations{
+    margin-top:5%;
+}
+
+.features {
+    background-color: var(--secondary-color);
+    color:var(--navbar-color);
+}
+
+#feature1, #feature2, #feature3{
+    padding-top:3%;
+    padding-bottom:3%;
+}
+#feature1>div, #feature2>div, #feature3>div{
+    margin-bottom:2%;
+}
+
+.details{
+    padding:1%;
+    width:80%;
+    margin: auto;
+}
+.aboutus{
+    padding:1%;
+    color:var(--navbar-color);
+}
+footer{
+    background-color:var(--secondary-color);
+}
+footer a{
+    color:var(--navbar-color);
+}
+footer a:hover{
+    color:var(--navbar-color);
+    text-decoration: none;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FoodCubo | Home</title>
+    <!-- Bootstrap cdn and js loaded -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../static/css/flatpickr.min.css">
+    <script src="../static/js/jquery.min.js"></script>
+    <script src="../static/js/popper.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/notify.js"></script>
+    <script src="../static/js/jquery.validate.min.js"></script>
+    <script src="../static/js/sisyphus.min.js"></script>
+    <script src="../static/js/flatpickr.js"></script>
+    <!-- Custom css files -->
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/index.css">
+    
+</head>
+<body>
+    <!-- Navigation bar collapse -->
+    <nav class="navbar navbar-expand-md navbar-light" id="navbar">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#"><img src="images/FoodCubo.png" alt="The company logo" width="40px" height="50px"></a>
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse navbar-light" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutus">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="" class="nav-link">Login</a> 
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Signup</a> 
+            </li>
+          </ul>
+        </div> 
+    </nav>
+    <!-- Conatiner starts now ! row 1  -->
+    <div class="row">
+        <div class="col-md-6">
+            <div class="col-md-9 col-sm-9 col-9 offset-2">
+                <div id="name" class="col-md-7 offset-2">
+                    Food
+                    <img src="images/FoodCubo.png" alt="" height="20%">
+                    Cubo
+                </div>
+                <div id="search">
+                    <h2 class="display-4" id="presearch">Food Cravings?</h2>
+                    <div class="form-text text-muted">We are happy to help you foodies</div>
+                    <form action="#" method="POST">
+                        <input type="text" name="search" placeholder="  Enter Location">
+                        <input type="submit" value="Locate" name="location">
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-8 col-8 offset-2" id="locations">
+                <strong>Locations available:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+        </div>
+        <div class="col-md-6"><img src="images/fries.png" alt="The main food image" width="100%"></div>
+    </div>
+    <!-- Container row 2  -->
+    <div class="features">
+        <div class="row">
+            <div class="col-md-4">
+                <div align="center"id="feature1">
+                    <div class="icon display-3" ><i class="fas fa-ban"></i></div>
+                    <div class="text">No minimum order</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div align="center" id ="feature2">
+                    <div class="icon display-3"><i class="fas fa-mug-hot"></i></div>
+                    <div class="text">Hot & Fresh food delivery</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div align="center" id ="feature3">
+                    <div class="icon display-3"><i class="fas fa-truck"></i> </div>
+                    <div class="text">Fast food delivery</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Container row 3 -->
+    <div class="aboutus" align="center" id="aboutus">
+        <!-- content -->
+        <div class="details" align="center">
+            <h4>About Food Cubo</h4>
+            <p>Foodcubo is India’s one of the most promising food delivery portal.
+                    This company was started by Rohit Kashyap originating from the city of Patna and have a rage to spread its services all over India. Food Cubo focuses on bringing down the cost and the ease of online food ordering to the fingertips of its customers and would be soon revolutionizing the food industry.</p>
+        </div>
+    </div>
+</body>
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+        <!-- Grid row -->
+        <div class="row">
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+            <!-- Content -->
+            <h5 class="text-uppercase">Footer Content</h5>
+            <p>Here you can use rows and columns to organize your footer content.</p>
+        </div>
+        <!-- Grid column -->
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+            <!-- Links -->
+            <h5 class="text-uppercase">Links</h5>
+            <ul class="list-unstyled">
+            <li>
+                <a href="#!">Link 1</a>
+            </li>
+            <li>
+                <a href="#!">Link 2</a>
+            </li>
+            <li>
+                <a href="#!">Link 3</a>
+            </li>
+            <li>
+                <a href="#!">Link 4</a>
+            </li>
+            </ul>
+        </div>
+        <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+    </div>
+    <!-- Footer Links -->
+    
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+        <a href="#"> FoodCubo</a>
+    </div>
+    <!-- Copyright -->
+    
+</footer>
+<!-- Footer -->
+</html>
